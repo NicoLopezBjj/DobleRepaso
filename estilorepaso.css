@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{ background-image:linear-gradient(0deg,rgba(58, 57, 57, 0.3),rgba(58, 57, 57, 0.3)),url(imgrepaso.jpg);
+    height: 427px ;
+    width: 640 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}  
+
+    h1,h2,h3{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+body{
+     background-color: rgb(166, 197, 187);
+}
+button{ 
+    background-color: cornflowerblue ; border-bottom: 0,5px
+}
+
+.iconos{
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(22, 22, 138);
+}
+.miestilo{
+    font-size: 70px;
+}
+.menu{
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 200;
+    position:relative
+}

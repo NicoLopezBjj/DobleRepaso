@@ -1,0 +1,37 @@
+section{ background:linear-gradient(0deg, rgba(255,0,150,0.33),rgba(255,0,150,0.3)), url(Montaña.jpg);
+    background-position:bottom center;
+    background-repeat: no-repeat;
+    height: 800px;
+
+}
+
+h1, p { color: white;}
+
+
+.miestilo { font-size: 120px;
+color: blue;
+text-shadow: 5px 2px 2px red;
+padding: 20px;
+}
+
+.padre {background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+
+}
+
+.hijo { background-color: violet;
+width: 100px; height: 100px;
+border: 2px solid black; 
+}
+
+.nose { background-color: violet;
+    display: flex;
+    width: 200px; height: 200px;
+}
+.uno{ background-color: red;}
+.dos{ background-color: brown;}
+
+.queseyo{ width: 50px; height: 50px;}
